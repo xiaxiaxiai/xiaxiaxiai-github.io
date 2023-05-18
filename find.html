@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+        />
+        <title>Find</title>
+        <link href="https://fonts.googlefonts.cn/css?family=Anton" rel="stylesheet">
+        <link href="https://fonts.googlefonts.cn/css?family=Hanalei+Fill" rel="stylesheet">
+        <link href="https://fonts.googlefonts.cn/css?family=Ubuntu" rel="stylesheet">
+        <link href="https://fonts.googlefonts.cn/css?family=Do+Hyeon" rel="stylesheet">
+        <link rel="stylesheet" href="./css/index.css">
+
+    </head>
+    <body onclick="openMusic()">
+      <div class="bgMusic">
+        <audio id="m_bg_music" autoplay="autoplay" loop="true" src="img/mp3/bg.mp3"></audio>
+      </div>
+
+      <div class="topic_box">
+        <h1 class="font_shadow"><a class="font_shadow" href="./index.html">AESTHETICS</a></h1>
+        <ul>
+          <li><a href="./email.html">Email</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          
+        </ul>
+        <div class="right_topic">
+          <h2>Made for Ruiyao Xia</h2>
+          <p><a href="https://instagram.com/xiiaa_rrry?igshid=NTc4MTIwNjQ2YQ==">instagram</a></p>
+        </div>
+      </div>
+
+      <div class="chooose_box" id="chooose_box">
+        <!-- <h2>Find a new self</h2> -->
+        <div class="choose_item" id="choose_item">
+          <p>4. When a bully approaches to replace you in the digital world, you should:</p>
+          <p><input id="a_chooose" type="radio" name="radio">
+            <label for="a_chooose">A. Defend your identity to the death (select this option to get results) </label>
+          </p>
+          <p><input id="b_choose" type="radio" name="radio">
+            <label for="b_choose">B. Surrender to the bully and surrender your identity (go directly to the elimination page)</label>
+          </p>
+        </div> 
+      </div>
+      <div class='button_self' id="button_self"><button id='back_self'> << Back</button></div>     
+
+
+      <div class="botton_box2">
+        <h1 class="font_shadow">AESTHETICS</h1>
+      </div>
+      <div class="cloumn_boxs" id="cloumn_box">
+        <video id="video_set" src="./img/mp4/bss.mp4" autoplay muted></video>
+        <div id="cloumn_box_text">
+            Congratulations
+        </div>
+        
+        
+      </div>
+
+
+
+
+      <div id="container" style="display: none;"></div>
+
+    
+
+      <script type="importmap">
+        {
+            "imports": {
+                "three": "./js/three.module.js",
+                "three/addons/": "./js/jsm/"
+            }
+        }
+      </script>
+      <script src="./js/jquery-3.6.1.min.js"></script>
+      <script  src="./js/find.js"></script>
+      <script src="./js/music.js"></script>
+
+
+    </body>
+</html>

@@ -1,0 +1,260 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+html,body {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+      
+body {
+  font-size: 14px;
+  color: pink;
+  margin: 0;
+  padding: 0;
+  background: no-repeat;
+  background-image: url('../img/bg.jpg');
+  background-size: 100% 100%;
+  font-family: 'Anton', sans-serif !important;
+}
+      
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+      
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+      
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+      
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.topic_box{
+  position: absolute;
+  z-index: 2;
+  margin: 1vw 2vw;
+  display: flex;
+  top:0;
+}
+.topic_box ul{
+  display: flex;
+  width: 57vw;
+  margin-left: 5%;
+}
+.topic_box ul li{
+  list-style: none;
+  margin-right: 4%;
+  text-align: left;
+  line-height: 3vw;
+  font-size: large;
+}
+.topic_box .right_topic{
+  width: 22vw;
+  text-align: right;
+}
+.topic_box a{
+  text-decoration: none;
+  color:pink;
+}
+.topic_box a:hover{
+  border-bottom: 1px solid pink;
+}
+.ts{
+  line-height: inherit !important;
+  width: 34%;
+  text-align: center !important;
+  border-left: 3px solid pink;
+  padding-left: 3%;
+  font-family: 'Ubuntu', sans-serif; 
+}
+.font_shadow{
+  text-shadow: 12px 10px 2px #f0c0c840;
+  font-family: 'Hanalei Fill', cursive;
+  font-size: xxx-large;
+}
+.font_shadow a:hover{
+  border:none;
+}
+.button_box{
+  position: absolute;
+  font-size: xxx-large;
+  width: 20%;
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  left: 2vw;
+  text-shadow: 0px 30px 0px #f0c0c840;
+  margin-top: 20vh;
+}
+.button_self{
+  /* text-align: center; */
+  position: absolute;
+  bottom: 1vw;
+  left: 2vw;
+  
+}
+.button_self button{
+  padding: 8px 18px;
+  margin-right: 2vw;
+  cursor: pointer;
+  background: none;
+  border: 2px solid antiquewhite;
+  color: pink;
+  font-size: larger;
+  border-radius: 10px;
+}
+.button_self button:hover{
+  color: white;
+  background: pink;
+  border:2px solid pink;
+}
+.button_box a{
+  text-decoration: none;
+  color:pink;
+
+}
+.button_box a:hover{
+  animation: slide 3s linear infinite;
+}
+.button_box_right{
+  left: 79vw;
+}
+
+.chooose_box{
+  padding: 2vw;
+  position: absolute;
+  margin: 2vw;
+  margin-top: 10vw;
+  width: 96vw;
+  box-sizing: border-box;
+  border-radius: 7px;
+  font-family: 'Do Hyeon', sans-serif;
+
+}
+.chooose_box h2{
+  text-align: center;
+  font-size: xx-large;
+}
+.chooose_box .choose_item{
+  margin-top:1vw;
+
+}
+.project_title{
+  font-size: xxx-large;
+}
+.project_menu{
+  font-size: xxx-large;
+}
+.chooose_box .choose_item p{
+  margin-bottom: 0.5vw;
+}
+.chooose_box .choose_item p label{
+  cursor: pointer;
+}
+
+.botton_box{
+  position: absolute;
+  bottom: 1vw;
+  left:2vw;
+}
+.botton_box2{
+  position: absolute;
+  bottom: 1vw;
+  right:2vw;
+}
+
+.cloumn_boxs{
+  padding: 2vw;
+  position: absolute;
+  width: 100vw;
+  box-sizing: border-box;
+  top: 10vw;
+  text-align: center;
+}
+
+.cloumn_boxs video{
+  height: 45vh;
+}
+
+.cloumn_boxs #cloumn_box_text{
+  margin-top: 1vw;
+  text-align: center;
+  font-size: xx-large;
+}
+.annite_oppcatiy{
+  animation: opcatiy_annite 3s;
+}
+.bottom_box{
+  background-color: #ffc0cb4a;
+  width:100vw;
+  left:0px !important;
+  bottom: 0px;
+}
+.boootom_box_item{
+  position: relative;
+  display: flex;
+  margin-left:-100vw;
+}
+.boootom_box_item h1{
+  margin-right: 2vw;
+}
+
+
+@keyframes slide {
+  0% {
+    color:pink;
+    text-shadow: 0px 30px 0px #f0c0c840;
+  }
+  25% {
+    color:red;
+    text-shadow: 0px 30px 0px #ff113940;
+  }
+  50% {
+    color:yellow;
+    text-shadow: 0px 30px 0px rgba(255, 255, 0, 0.139);
+  }
+  75% {
+    color:blue;
+    text-shadow: 0px 30px 0px rgba(0, 0, 255, 0.153);
+  }
+  100% {
+    color:aqua;
+    text-shadow: 0px 30px 0px rgba(0, 255, 255, 0.337);
+  }
+}
+
+
+@keyframes opcatiy_annite {
+  0% {
+   opacity: 0;
+  }
+  50% {
+   opacity: 0.5;
+  }
+  100% {
+   opacity: 1;
+  }
+}
+
